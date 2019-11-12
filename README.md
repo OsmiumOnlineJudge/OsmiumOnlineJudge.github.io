@@ -1,2 +1,4 @@
 # OsmiumOnlineJudge.github.io
-OOJ - OsmiumOJ
+OOJ - OsmiumOnlineJudge
+
+latest version: `v1.0.0`
