@@ -113,12 +113,16 @@ a {
 	line-height: 25px;
 	font-size: 18px;
 	vertical-align: middle;
+	transition-duration: 0.4s;
+	border-radius: 15px;
+	box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.25);
 }
-.div1, .tag1 {
+.div1 {
 	background-color: rgba(255, 255, 255, 0.2);
 	transition-duration: 0.4s;
 	border-radius: 15px;
 	box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.25);
+	padding: 12px;
 }
 .div1:hover, .tag1:hover {
 	box-shadow: 8px 8px 15px 8px rgba(0, 0, 0, 0.2);
@@ -128,12 +132,11 @@ a {
 	top: 72px;
 	width: 864px;
 	left: calc(50% - 432px);
-	padding: 12px;
 }
 .centeria {
 	display: flex;
-	justifyContent: center;
-	alignItems: center;
+	justify-content: center;
+	align-items: center;
 }
 .round {
 	border-radius: 50%;
